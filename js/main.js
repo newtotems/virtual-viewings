@@ -1,3 +1,4 @@
+var Airtable = require('airtable');
 var base = new Airtable({apiKey: process.env.AIRTABLE_KEY}).base('appR6XBt90j4i03kI');
     
 base('metadata').select({
