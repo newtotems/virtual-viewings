@@ -1,15 +1,22 @@
 <h1>{{matterport.length}} Results</h1>
 <div class="row">
 {% for result in matterport |sort(attribute='name', reverse=false) %}
+{% if result.visible === true %}
 <div class="result col-xs-12 col-sm-8 col-md-6 col-lg-2">
 <a href="https://my.matterport.com/show/?m={{result.id}}&help=0&hl=0&qs=1&brand=0&dh=0&gt=0&hr=0&mls=2&mt=0&pin=0&play=1" target="_blank" rel="noopener">
 <img src="https://my.matterport.com/api/v2/player/models/{{result.id}}/thumb/">
 </a>
+
+{% for tag in result.tags %}
+{{ tag }}
+{% endfor %}
+
 
 <a href="https://my.matterport.com/show/?m={{result.id}}&help=0&hl=0&qs=1&brand=0&dh=0&gt=0&hr=0&mls=2&mt=0&pin=0&play=1" target="_blank" rel="noopener">
 {# <h3>{{result.name}}</h3> #}
 </a>
 
 </div>
+{% endif %}
 {% endfor %}
-</div>
+</div> 
