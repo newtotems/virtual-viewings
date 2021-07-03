@@ -1,8 +1,13 @@
 ---
 layout: layouts/home.njk
+pagination:
+  data: matterport
+  size: 102
+  alias: mp
 eleventyNavigation:
   key: Home
   order: 1
 ---
+{% include 'paginate.njk'%}
 {% include 'results.njk'%}
-
+{% include 'paginate.njk'%}
