@@ -246,6 +246,10 @@ a[href].direct-link:focus:visited,
   color: #aaa;
 }
 
+.result {
+  padding: 10px;
+}
+
 .result img{
   width:100%;
 }
