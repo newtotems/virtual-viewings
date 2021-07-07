@@ -94,7 +94,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -336,7 +336,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -688,7 +688,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -699,7 +699,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -743,7 +743,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -754,7 +754,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -765,7 +765,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -799,18 +799,7 @@
          
       ],
       "featured":false,
-      "visible":true,
-      "timestamp" : 1625680800
-   },
-   {
-      "name":"Synagogue de Carpentras",
-      "id":"rMB3isgojbo",
-      "vendor":"matterport",
-      "tags":[
-         
-      ],
-      "featured":false,
-      "visible":true,
+      "visible":false,
       "timestamp" : 1625680800
    },
    {
@@ -880,30 +869,8 @@
       "timestamp" : 1625680800
    },
    {
-      "name":"Sabrevois & Truteau Hall L’Auberge Saint-Gabriel",
-      "id":"xTUwaY5bsZ8",
-      "vendor":"matterport",
-      "tags":[
-         
-      ],
-      "featured":false,
-      "visible":true,
-      "timestamp" : 1625680800
-   },
-   {
       "name":"Poolside Los Angeles",
       "id":"64X2kyqiSfu",
-      "vendor":"matterport",
-      "tags":[
-         
-      ],
-      "featured":false,
-      "visible":true,
-      "timestamp" : 1625680800
-   },
-   {
-      "name":"Museo de Jarramplas en Piornal",
-      "id":"Ppcwjv6RCr2",
       "vendor":"matterport",
       "tags":[
          
@@ -959,17 +926,6 @@
    {
       "name":"CUMHURİYET MÜZESİ",
       "id":"8rdp3Q6og4q",
-      "vendor":"matterport",
-      "tags":[
-         
-      ],
-      "featured":false,
-      "visible":true,
-      "timestamp" : 1625680800
-   },
-   {
-      "name":"609 Main St",
-      "id":"sJqhujwmbHt",
       "vendor":"matterport",
       "tags":[
          
@@ -1304,7 +1260,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -1579,7 +1535,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -1755,7 +1711,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -1887,7 +1843,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -2327,7 +2283,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -2624,7 +2580,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -3592,7 +3548,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -4010,7 +3966,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -4219,7 +4175,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -4428,7 +4384,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -4505,7 +4461,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -4516,7 +4472,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -5517,7 +5473,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -6298,7 +6254,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -6386,7 +6342,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -6496,7 +6452,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
@@ -6584,7 +6540,7 @@
       "tags":[
          
       ],
-      "featured":false,
+      "featured":true,
       "visible":true,
       "timestamp" : 1625680800
    },
