@@ -335,6 +335,7 @@ a[href].direct-link:focus:visited,
 
 .result img {
     width: 100%;
+    border-radius: 5px;
 }
 
 

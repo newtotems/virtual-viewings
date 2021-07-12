@@ -8,6 +8,18 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
+<h1>{{matterport.length}} properties</h1>
+<div>
+<div class="">All ({{matterport.length}})</div>
+{% if matterport | selectattr("featured") | length > 0 %}
+<div class="">
+ {% if not '/featured' in page.url %} <a href="/featured">{% endif %}
+  Featured ({{ matterport | selectattr("featured") | length }})
+  {% if not '/featured' in page.url %} </a>{% endif %}
+  </div>
+{% endif %}
+</div>
+
 {% include 'paginate.njk'%}
 {% include 'results.njk'%}
 {% include 'paginate.njk'%}

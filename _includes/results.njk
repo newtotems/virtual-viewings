@@ -1,4 +1,4 @@
-<h1>Explore {{matterport.length}} properties</h1>
+
 <div class="row resultcontainer">
 {% for result in mp |sort(attribute='id', reverse=false) %}
 {% if result.visible === true %}
