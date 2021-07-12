@@ -7,6 +7,7 @@
     --navy: #17050F;
     --blue: #082840;
     --white: #fff;
+    --dark: #140d26;
 }
 
 
@@ -23,6 +24,10 @@ body {
     font-family: -apple-system, system-ui, sans-serif;
     color: var(--darkgray);
     background-color: var(--white);
+}
+
+body {
+    padding: 15px;
 }
 
 p:last-child {
@@ -42,11 +47,11 @@ p,
 }
 
 a[href] {
-    color: var(--blue);
+    color: var(--dark);
 }
 
 a[href]:visited {
-    color: var(--navy);
+    color: var(--dark);
 }
 
 main {
@@ -312,6 +317,7 @@ a[href].direct-link:focus:visited,
 }
 
 .result {
+    margin: 0;
     padding: 10px;
     position: relative;
 }
@@ -323,7 +329,7 @@ a[href].direct-link:focus:visited,
     background: #fff;
     border-radius: 15px;
     padding: 2px 7px;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .result__tag--featured {
@@ -335,7 +341,17 @@ a[href].direct-link:focus:visited,
 
 .result img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.result a {
+    display: block;
+}
+
+.site-head {
+    min-height: 250px
 }
 
 

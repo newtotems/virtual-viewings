@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
   </head>
   <body>
-    <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-    </header>
+  
+  {% include 'site-head.njk'%}
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}

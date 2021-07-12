@@ -1,0 +1,26 @@
+{% if '/featured' in page.url %} 
+{% set featured = true %}
+{% else %}
+{% set featured = false %}
+{% endif %}
+
+<div class="row center-xs">
+<div class="row col-lg-4">
+
+<div class="col-xs-6">
+ {% if featured == true %} <a href="/">{% endif %}
+    All ({{matterport.length}})
+    {% if featured == true %} </a>{% endif %}
+</div>
+
+{% if matterport | selectattr("featured") | length > 0 %} {# if there are some featured props #}
+
+<div class="col-xs-6">
+ {% if featured == false %} <a href="/featured">{% endif %}
+  Featured ({{ matterport | selectattr("featured") | length }})
+  {% if featured == false %} </a>{% endif %}
+</div>
+{% endif %}
+
+</div>
+</div>
