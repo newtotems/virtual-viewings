@@ -1952,7 +1952,7 @@
         "tags": [
 
         ],
-        "featured": false,
+        "featured": true,
         "visible": true,
         "timestamp": 1625680800
     },
@@ -3541,17 +3541,6 @@
         "timestamp": 1625680800
     },
     {
-        "name": "Hotel Fairmont Riyadh - Executive Suite 547",
-        "id": "UcXZBVabxp5",
-        "vendor": "matterport",
-        "tags": [
-
-        ],
-        "featured": false,
-        "visible": true,
-        "timestamp": 1625680800
-    },
-    {
         "name": "3000",
         "id": "iSy7DD96YWD",
         "vendor": "matterport",
@@ -3774,17 +3763,6 @@
     {
         "name": "Taw Wharf - Webbers",
         "id": "3GKPLYLpwN2",
-        "vendor": "matterport",
-        "tags": [
-
-        ],
-        "featured": false,
-        "visible": true,
-        "timestamp": 1625680800
-    },
-    {
-        "name": "Norchard",
-        "id": "TAg7uqKMEyC",
         "vendor": "matterport",
         "tags": [
 
@@ -4273,7 +4251,7 @@
         "tags": [
 
         ],
-        "featured": false,
+        "featured": true,
         "visible": true,
         "timestamp": 1625680800
     },
@@ -11412,7 +11390,7 @@
         "tags": [
 
         ],
-        "featured": false,
+        "featured": true,
         "visible": true,
         "timestamp": 1625871600
     },
@@ -12270,7 +12248,7 @@
         "tags": [
 
         ],
-        "featured": false,
+        "featured": true,
         "visible": true,
         "timestamp": 1625958000
     },
@@ -12336,7 +12314,7 @@
         "tags": [
 
         ],
-        "featured": false,
+        "featured": true,
         "visible": true,
         "timestamp": 1625958000
     },
@@ -12996,7 +12974,7 @@
         "tags": [
 
         ],
-        "featured": false,
+        "featured": true,
         "visible": true,
         "timestamp": 1625958000
     },
@@ -13007,7 +12985,7 @@
         "tags": [
 
         ],
-        "featured": false,
+        "featured": true,
         "visible": true,
         "timestamp": 1626130800
     },
@@ -13062,7 +13040,7 @@
         "tags": [
 
         ],
-        "featured": false,
+        "featured": true,
         "visible": true,
         "timestamp": 1626130800
     },
@@ -13084,7 +13062,7 @@
         "tags": [
 
         ],
-        "featured": false,
+        "featured": true,
         "visible": true,
         "timestamp": 1626130800
     },
