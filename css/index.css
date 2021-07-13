@@ -354,6 +354,19 @@ a[href].direct-link:focus:visited,
     min-height: 250px
 }
 
+.toggle {
+    background-color: var(--gray);
+    color: #fff;
+}
+
+.toggle a[href] {
+    background-color: var(--navy);
+    color: #fff;
+    display: block;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
 
 /*   grid   */
 
