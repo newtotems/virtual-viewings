@@ -1,8 +1,17 @@
-<div id="f" style="display:none">{{featured}}</div>
+<div class="center-xs"><button type="button" id="getrandom">random property</button></div>
+
+
 <script>
-    const d = document.getElementById("f").innerHTML;
-    const data = "[" + d + "]";
-    console.log(data);
-    var item = data[Math.floor(Math.random()*data.length)];
-	console.log(item);
-</script>
+function getRandomLink() {
+var f = {{featured|dump|safe}};
+var random = f[Math.floor(Math.random()*f.length)];
+var randomLink = "https://my.matterport.com/show/?m=" + random + "&help=0&hl=0&qs=1&brand=0&dh=1&gt=0&hr=0&mls=2&mt=0&pin=0&play=1";
+console.log('random link is ' + randomLink);
+window.open(randomLink, '_blank');
+
+};
+
+document.getElementById("getrandom").addEventListener('click',function () {
+     getRandomLink();
+    }); 
+    </script>
