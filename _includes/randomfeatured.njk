@@ -1,0 +1,8 @@
+<div id="f" style="display:none">{{featured}}</div>
+<script>
+    const d = document.getElementById("f").innerHTML;
+    const data = "[" + d + "]";
+    console.log(data);
+    var item = data[Math.floor(Math.random()*data.length)];
+	console.log(item);
+</script>
