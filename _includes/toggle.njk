@@ -1,24 +1,24 @@
 {% if '/featured' in page.url %} 
-{% set featured = true %}
+{% set onfeatured = true %}
 {% else %}
-{% set featured = false %}
+{% set onfeatured = false %}
 {% endif %}
 
 <div class="row center-xs">
 <div class="row col-lg-4 toggle">
 
 <div class="col-xs-6">
- {% if featured == true %} <a href="/">{% endif %}
+ {% if onfeatured == true %} <a href="/">{% endif %}
     All ({{matterport.length}})
-    {% if featured == true %} </a>{% endif %}
+    {% if onfeatured == true %} </a>{% endif %}
 </div>
 
-{% if matterport | selectattr("featured") | length > 0 %} {# if there are some featured props #}
+{% if featured | length > 0 %} {# if there are some featured props #}
 
 <div class="col-xs-6">
- {% if featured == false %} <a href="/featured">{% endif %}
-  Featured ({{ matterport | selectattr("featured") | length }})
-  {% if featured == false %} </a>{% endif %}
+ {% if onfeatured == false %} <a href="/featured">{% endif %}
+  Featured ({{ featured | length }})
+  {% if onfeatured == false %} </a>{% endif %}
 </div>
 {% endif %}
 
