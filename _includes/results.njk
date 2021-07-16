@@ -1,6 +1,6 @@
 
 <div class="row resultcontainer middle-xs">
-{% for result in mp |sort(attribute='id', reverse=false) %}
+{% for result in mp |sort(attribute='timestamp', reverse=false) %}
 {% if result.visible === true %}
 <div class="result col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-bob">
 <a href="https://my.matterport.com/show/?m={{result.id}}&help=0&hl=0&qs=1&brand=0&dh=1&gt=0&hr=0&mls=2&mt=0&pin=0&play=1" target="_blank" rel="noopener" title="{{result.id}}">
