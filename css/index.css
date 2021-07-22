@@ -6,8 +6,8 @@
     --darkgray: #333;
     --navy: #17050F;
     --blue: #082840;
-    --white: #fff;
-    --dark: #140d26;
+    --white: #eee;
+    --dark: #232931;
 }
 
 
@@ -22,8 +22,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: -apple-system, system-ui, sans-serif;
-    color: var(--darkgray);
-    background-color: var(--white);
+    color: var(--white);
+    background-color: var(--dark);
 }
 
 body {
@@ -327,7 +327,6 @@ a[href].post-tag:focus {
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
   .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
     -webkit-animation-name: hvr-bob-float, hvr-bob;
@@ -344,9 +343,28 @@ a[href].post-tag:focus {
     animation-fill-mode: forwards;
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
+
+    box-shadow: 0 0 30px rgba(33, 152, 151, 0.5);
+    background: rgba(33, 152, 151, 0.5);
+    border-radius: 8px;
+
   }  
 
+  #getrandom {
+      
+    padding: 10px 20PX;
+    margin: 20px 0px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 800;
+    font-size: 1.3rem;
 
+  }
+
+  #getrandom:hover {
+background: #4ECCA3;
+cursor: pointer;
+  }
 /* Warning */
 
 .warning {
@@ -413,6 +431,14 @@ a[href].direct-link:focus:visited,
 
 .result a {
     display: block;
+    border: 5px solid #393E46;
+    background-color:  #393E46;
+    border-radius: 8px;
+}
+
+
+.result a:empty {
+    display: none;
 }
 
 .site-head {
@@ -420,16 +446,27 @@ a[href].direct-link:focus:visited,
 }
 
 .toggle {
-    background-color: var(--gray);
-    color: #fff;
+    color: #393E46;
+}
+
+.toggle span {
+    background-color: #393E46;
+    color: var(--dark);
+    font-weight: 800;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    border-radius: 8px;
 }
 
 .toggle a[href] {
-    background-color: var(--navy);
-    color: #fff;
-    display: block;
-    border: 1px solid #fff;
-    padding: 5px;
+    text-decoration: none;
+}
+
+.toggle a[href] span {
+    background-color: #4ECCA3;
+    color:var(--dark);
+    text-decoration: none;
 }
 
 

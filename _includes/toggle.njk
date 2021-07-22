@@ -9,7 +9,7 @@
 
 <div class="col-xs-6">
  {% if onfeatured == true %} <a href="/">{% endif %}
-    All ({{matterport.length}})
+   <span> All ({{matterport.length}})</span>
     {% if onfeatured == true %} </a>{% endif %}
 </div>
 
@@ -17,7 +17,7 @@
 
 <div class="col-xs-6">
  {% if onfeatured == false %} <a href="/featured">{% endif %}
-  Featured ({{ featured | length }})
+ <span> Featured ({{ featured | length }})</span>
   {% if onfeatured == false %} </a>{% endif %}
 </div>
 {% endif %}

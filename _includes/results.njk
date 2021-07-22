@@ -10,6 +10,7 @@
 {% for tag in result.tags %}
 <span class="result__tag">{{ tag }}</span>
 {% endfor %}
+{% if result.vendor === "matterport" %}M{% endif %}
 {% if result.featured === true%}<span class="result__tag result__tag--featured">featured</span>{% endif %}
 </div>
 {% endif %}
