@@ -395,6 +395,12 @@ a[href].direct-link:focus:visited,
     color: #aaa;
 }
 
+
+header {
+    border: none;
+    text-align: center;
+}
+
 .result {
     margin: 0;
     padding: 10px;
@@ -433,13 +439,11 @@ opacity: 1;
 }
 
 .result:hover img {
-    border: 8px solid #4ECCA3;
-    border-radius: 8px;
+    outline: 8px solid #4ECCA3;
 }
 
 .result img {
     width: 100%;
-    border-radius: 8px;
     display: block;
     margin: 0 auto;
 }
@@ -468,12 +472,9 @@ reslt:hover img.vendor-icon {
     border:0;
 }
 
-.site-head {
-    min-height: 250px
-}
-
 .toggle {
     color: #393E46;
+    padding: 20px 0;
 }
 
 .toggle span {
