@@ -373,6 +373,8 @@ cursor: pointer;
     margin: 0;
 }
 
+h1 a {color: #4ECCA3;text-decoration: none;}
+
 
 /* Direct Links / Markdown Headers */
 
