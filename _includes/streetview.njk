@@ -1,0 +1,13 @@
+{% for s in streetview %}
+{% if s.id === result.id %}
+
+<div class="streetview-icon" onClick="var element = document.getElementById('i_{{result.id}}');element.classList.toggle('hidden');return false">
+    <img src="/img/streetview-icon.png" style="z-index:999999999;position:absolute;bottom: 10px; left: 10px; height:20px;width: auto">
+</div>
+
+<iframe id="i_{{result.id}}" width="100%" height="100%" style="" class="hidden" loading="lazy" allowfullscreen
+src="https://www.google.com/maps/embed/v1/streetview?key=AIzaSyCC26sOubfQQiXxr23z6PUWxesf63gmUys&heading={{s.heading}}&pano={{s.pano}}"></iframe>
+{% else %}
+
+{% endif %}
+{% endfor %}
