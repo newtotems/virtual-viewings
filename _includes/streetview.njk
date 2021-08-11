@@ -6,7 +6,7 @@
 </div>
 
 <iframe id="i_{{result.id}}" width="100%" height="100%" style="" class="hidden" loading="lazy" allowfullscreen
-src="https://www.google.com/maps/embed/v1/streetview?key=AIzaSyCC26sOubfQQiXxr23z6PUWxesf63gmUys&heading={{s.heading}}&pano={{s.pano}}"></iframe>
+src="https://www.google.com/maps/embed/v1/streetview?key={{env.mapskey}}&heading={{s.heading}}&pano={{s.pano}}"></iframe>
 {% else %}
 
 {% endif %}
