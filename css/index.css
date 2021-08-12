@@ -458,6 +458,7 @@ z-index: 100;
 
 .result:hover .result__name {
 opacity: 1;
+pointer-events: none;
 }
 
 .result:hover img {
